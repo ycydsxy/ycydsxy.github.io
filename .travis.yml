@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+node_js:
+  - 10 # use nodejs v10 LTS
+cache: npm
+branches: main # build master branch only
+script:
+  - hexo generate # generate static files
+  - hexo algolia # push to search index
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  on:
+    branch: main
+  target_branch: publish
+  local-dir: public
