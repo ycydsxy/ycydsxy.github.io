@@ -356,7 +356,7 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: default
+    light: atom-one-light
     dark: dark
   prism:
     light: prism
@@ -384,7 +384,7 @@ reading_progress:
 
 # Bookmark Support
 bookmark:
-  enable: false
+  enable: true
   # Customize the color of the bookmark.
   color: "#222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
@@ -447,7 +447,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: Noto Serif SC
+    family: Courier New
 
 
 # ---------------------------------------------------------------
@@ -499,9 +499,9 @@ math:
   every_page: false
 
   mathjax:
-    enable: false
+    enable: true
     # Available values: none | ams | all
-    tags: none
+    tags: ams
 
   katex:
     enable: false
