@@ -1,8 +1,8 @@
 sudo: false
-addons:
-  apt:
-    packages:
-    - pandoc
+before_install:
+  - curl -L https://github.com/jgm/pandoc/releases/download/2.13/pandoc-2.13-1-amd64.deb > pandoc.deb
+  - dpkg -x pandoc.deb .
+  - export PATH="$PWD/usr/bin:$PATH"
 language: node_js
 node_js:
   - 10 # use nodejs v10 LTS
