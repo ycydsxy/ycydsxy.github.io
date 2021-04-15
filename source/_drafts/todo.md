@@ -3,37 +3,7 @@ title: todo
 tags:
 ---
 
-# go语言踩坑指南
-
-https://bytedance.feishu.cn/docs/doccnqtxXNOsUY1GMpvtNY4eTef
-
-https://bytedance.feishu.cn/docs/doccnsQatQfebzVVxHtSmSKIAXb
-
-reflect value type 的elem含义不同
-
-# https 与 RSA 算法
-
-# 跨域问题
-
-https://www.ruanyifeng.com/blog/2016/04/cors.html
-
-# CDN
-
-https://tech.bytedance.net/articles/13501
-
 # Golang
-
-https://tech.bytedance.net/articles/6909066931970834440
-
-https://tech.bytedance.net/articles/3258
-
-https://tech.bytedance.net/articles/3212
-
-https://tech.bytedance.net/articles/2345
-
-https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-string/
-
-https://bytedance.feishu.cn/wiki/wikcnXy1CA6pRpa6eKVG0NuLgqc
 
 https://chai2010.cn/advanced-go-programming-book/
 
@@ -41,17 +11,77 @@ https://golang.design/under-the-hood/zh-cn/part1basic/
 
 https://golang.design/go-questions/
 
-http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/
+## 基础/原理
 
-https://golang1.eddycjy.com/posts/ch2/channel/#channel-%E6%9C%AC%E8%B4%A8
+### 语言踩坑
+
+https://bytedance.feishu.cn/docs/doccnqtxXNOsUY1GMpvtNY4eTef
+
+https://bytedance.feishu.cn/docs/doccnsQatQfebzVVxHtSmSKIAXb
+
+https://bytedance.feishu.cn/wiki/wikcnXy1CA6pRpa6eKVG0NuLgqc
+
+http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/
 
 https://eddycjy.com/posts/go/go-concurrent-lock/
 
+reflect value type 的elem含义不同
+
+### String
+
+https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-string/
+
+### Chan
+
+https://tech.bytedance.net/articles/6909066931970834440
+
+https://golang1.eddycjy.com/posts/ch2/channel/#channel-%E6%9C%AC%E8%B4%A8
+
+### Mutex
+
+https://tech.bytedance.net/articles/3258
+
+### Escape
+
+https://tech.bytedance.net/articles/3212
+
+https://bytedance.feishu.cn/wiki/wikcnXcZMvarKMx2v37Mz15s55g
+
+### Goroutine
+
 https://juejin.cn/post/6844904020901904398
+
+### Reflect
 
 https://tech.bytedance.net/articles/6902406926064648205
 
-https://bytedance.feishu.cn/wiki/wikcnXcZMvarKMx2v37Mz15s55g
+## Go mod
+
+https://bytedance.feishu.cn/wiki/wikcn1GcQMF9YJcTnalsENjAKZg
+
+## Golang GC
+
+https://studygolang.com/articles/27243?fr=sidebar
+
+https://tech.bytedance.net/articles/6907125337478889485#heading12
+
+https://bytedance.feishu.cn/wiki/wikcnkUILeFakWOkCIjEEccdrZg
+
+## Golang 调度
+
+https://www.bookstack.cn/read/qcrao-Go-Questions/goroutine%20%E8%B0%83%E5%BA%A6%E5%99%A8-%E4%BB%80%E4%B9%88%E6%98%AFM:N%E6%A8%A1%E5%9E%8B.md
+
+https://morsmachine.dk/go-scheduler
+
+## Golang 汇编
+
+https://bytedance.feishu.cn/docs/doccnvdfhWBbY3ESIC3ydygR8Sb
+
+https://tech.bytedance.net/articles/2345
+
+# CDN
+
+https://tech.bytedance.net/articles/13501
 
 # Vim
 
@@ -101,31 +131,13 @@ https://bytedance.feishu.cn/docs/doccntnkcWuGgEApASFgbB7swRb
 
 https://www.liaoxuefeng.com/wiki/1207298049439968
 
-# Golang GC
 
-https://studygolang.com/articles/27243?fr=sidebar
-
-https://tech.bytedance.net/articles/6907125337478889485#heading12
-
-https://bytedance.feishu.cn/wiki/wikcnkUILeFakWOkCIjEEccdrZg
-
-# Golang 调度
-
-https://www.bookstack.cn/read/qcrao-Go-Questions/goroutine%20%E8%B0%83%E5%BA%A6%E5%99%A8-%E4%BB%80%E4%B9%88%E6%98%AFM:N%E6%A8%A1%E5%9E%8B.md
-
-https://morsmachine.dk/go-scheduler
-
-# Golang 汇编
-
-https://bytedance.feishu.cn/docs/doccnvdfhWBbY3ESIC3ydygR8Sb
 
 # 编码
 
 https://tech.bytedance.net/articles/6932293008649879560?from=email
 
-# Go mod
 
-https://bytedance.feishu.cn/wiki/wikcn1GcQMF9YJcTnalsENjAKZg
 
 # MySQL
 
@@ -225,15 +237,19 @@ https://research.deezer.com/
 
 AppStore 和弦分离
 
+# 跨域问题
 
+https://www.ruanyifeng.com/blog/2016/04/cors.html
 
+## CORS
 
+# 安全
 
+## CSRF
 
+## XSS
 
-CSRF 和 CORS
-
-SQL注入
+## SQL注入
 
 https://bytedance.feishu.cn/docs/doccnMZbArcvgtWqJSo9FHdLh4f
 
